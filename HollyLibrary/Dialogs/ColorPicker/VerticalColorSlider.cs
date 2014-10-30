@@ -11,6 +11,7 @@ namespace HollyLibrary
 	/// A vertical slider control that shows a range for a color property (a.k.a. Hue, Saturation, Brightness,
 	/// Red, Green, Blue) and sends an event when the slider is changed.
 	/// </summary>
+	[System.ComponentModel.ToolboxItem(true)]
 	internal class VerticalColorSlider : DrawingArea
 	{
 		#region Class Variables

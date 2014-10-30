@@ -11,6 +11,8 @@ using Gtk;
 namespace HollyLibrary
 {
 	
+	[System.ComponentModel.ToolboxItem(true)]	
+	[System.Drawing.ToolboxBitmapAttribute(typeof(HDateEdit), "HDateEdit.png")]
 	public partial class HDateEdit : Gtk.Bin
 	{
 		//events

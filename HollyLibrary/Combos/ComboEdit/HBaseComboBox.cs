@@ -8,7 +8,7 @@ using Gtk;
 namespace HollyLibrary
 {
 	
-	
+	[System.ComponentModel.ToolboxItem(true)]
 	internal partial class HBaseComboBox : Gtk.Bin
 	{
 		

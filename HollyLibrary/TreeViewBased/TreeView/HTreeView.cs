@@ -10,7 +10,9 @@ namespace HollyLibrary
 {
 	
 	public delegate void NodeEventHandler      ( object sender, NodeEventArgs args );
-	
+
+    [System.ComponentModel.ToolboxItem(true)]
+    [System.Drawing.ToolboxBitmapAttribute(typeof(HTreeView), "HTreeView.png")]
 	public class HTreeView : TreeView, ICustomCellTreeView
 	{
 		//

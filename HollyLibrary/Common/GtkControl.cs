@@ -15,6 +15,7 @@ namespace HollyLibrary
 	/// <summary>
 	/// A Gtk.Bin that has all the basic events/ properties of the System.Windows.Forms basic control
 	/// </summary>
+	[System.ComponentModel.ToolboxItem(true)]
 	public class GtkControl : Gtk.EventBox
 	{
 		//key

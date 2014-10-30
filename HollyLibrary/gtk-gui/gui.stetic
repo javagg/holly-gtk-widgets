@@ -2,10 +2,10 @@
 <stetic-interface>
   <configuration>
     <images-root-path>..</images-root-path>
-    <target-gtk-version>2.12.4</target-gtk-version>
+    <target-gtk-version>2.12</target-gtk-version>
   </configuration>
   <import>
-    <widget-library name="../bin/Debug/HollyLibrary.dll" internal="true" />
+    <widget-library name="../bin/Debug/HollyWidgets.dll" internal="true" />
   </import>
   <widget class="Gtk.Bin" id="HollyLibrary.HDateEdit" design-size="322 31">
     <property name="MemberName" />
@@ -236,7 +236,6 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="ShowScrollbars">True</property>
-                <property name="HeadersClickable">True</property>
                 <property name="SelectedIndex">0</property>
                 <property name="ItemHeight">0</property>
                 <property name="OwnerDraw">True</property>
@@ -346,7 +345,6 @@
             <property name="MemberName" />
             <property name="CanFocus">True</property>
             <property name="ShowScrollbars">True</property>
-            <property name="HeadersClickable">True</property>
             <property name="SelectedIndex">0</property>
             <property name="ItemHeight">20</property>
             <property name="OwnerDraw">False</property>
@@ -587,7 +585,6 @@
         <child>
           <widget class="Gtk.Label" id="Spacer">
             <property name="MemberName" />
-            <property name="LabelProp" translatable="yes" />
           </widget>
           <packing>
             <property name="Position">0</property>
@@ -604,7 +601,6 @@
             <child>
               <widget class="Gtk.Label" id="SpacerLeft">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes" />
               </widget>
               <packing>
                 <property name="Position">0</property>
@@ -707,7 +703,6 @@
             <child>
               <widget class="Gtk.Label" id="SpacerRight">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes" />
               </widget>
               <packing>
                 <property name="Position">3</property>
@@ -850,7 +845,6 @@
         <child>
           <widget class="Gtk.Label" id="Spacer">
             <property name="MemberName" />
-            <property name="LabelProp" translatable="yes" />
           </widget>
           <packing>
             <property name="Position">2</property>
@@ -905,7 +899,6 @@
             <property name="MemberName" />
             <property name="CanFocus">True</property>
             <property name="ShowScrollbars">True</property>
-            <property name="HeadersClickable">True</property>
             <property name="OwnerDraw">False</property>
             <property name="ItemHeight">0</property>
             <property name="NodeIconVisible">False</property>
@@ -956,7 +949,6 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="ShowScrollbars">True</property>
-                <property name="HeadersClickable">True</property>
                 <property name="OwnerDraw">False</property>
                 <property name="ItemHeight">0</property>
                 <property name="NodeIconVisible">True</property>
@@ -1105,7 +1097,6 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">R:</property>
-                    <property name="Active">True</property>
                     <property name="DrawIndicator">True</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -1689,7 +1680,6 @@
     <property name="AllowGrow">False</property>
     <property name="Buttons">2</property>
     <property name="HelpButton">False</property>
-    <property name="HasSeparator">False</property>
     <child internal-child="VBox">
       <widget class="Gtk.VBox" id="dialog1_VBox">
         <property name="MemberName" />

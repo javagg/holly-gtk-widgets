@@ -7,7 +7,8 @@ using System;
 namespace HollyLibrary
 {
 	
-	
+	[System.ComponentModel.ToolboxItem(true)]	
+	[System.Drawing.ToolboxBitmapAttribute(typeof(HComboTree), "HComboTree.png")]
 	public partial class HComboTree : Gtk.Bin
 	{
 		//events

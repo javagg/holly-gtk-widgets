@@ -11,7 +11,7 @@ using System.ComponentModel;
 namespace HollyLibrary.Table
 {
 	
-	
+	[System.ComponentModel.ToolboxItem(true)]
 	public class HTable : Gtk.Bin
 	{
 	}

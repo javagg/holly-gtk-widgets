@@ -8,7 +8,8 @@ using System.Text.RegularExpressions;
 namespace HollyLibrary
 {
 	
-	
+	[System.ComponentModel.ToolboxItem(true)]	
+	[System.Drawing.ToolboxBitmapAttribute(typeof(HIpEntry), "HIpEntry.png")]
 	public partial class HIpEntry : Gtk.Bin
 	{
 		private enum ImageType

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollyLibrary", "HollyLibrary\HollyLibrary.csproj", "{A23CC5F4-55B8-4E44-BD43-71E88AF4CBD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2", "test2\test2.csproj", "{30655C5C-0BA5-47F9-BF10-B018676E3A51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30655C5C-0BA5-47F9-BF10-B018676E3A51}.Debug|x86.ActiveCfg = Debug|x86
+		{30655C5C-0BA5-47F9-BF10-B018676E3A51}.Debug|x86.Build.0 = Debug|x86
+		{30655C5C-0BA5-47F9-BF10-B018676E3A51}.Release|x86.ActiveCfg = Release|x86
+		{30655C5C-0BA5-47F9-BF10-B018676E3A51}.Release|x86.Build.0 = Release|x86
+		{A23CC5F4-55B8-4E44-BD43-71E88AF4CBD9}.Debug|x86.ActiveCfg = Debug|x86
+		{A23CC5F4-55B8-4E44-BD43-71E88AF4CBD9}.Debug|x86.Build.0 = Debug|x86
+		{A23CC5F4-55B8-4E44-BD43-71E88AF4CBD9}.Release|x86.ActiveCfg = Release|x86
+		{A23CC5F4-55B8-4E44-BD43-71E88AF4CBD9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = test2\test2.csproj
+	EndGlobalSection
+EndGlobal

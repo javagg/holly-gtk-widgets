@@ -9,7 +9,8 @@ using GLib;
 
 namespace HollyLibrary
 {
-	
+
+	[System.ComponentModel.ToolboxItem(true)]
 	internal class AnalogClock : Gtk.DrawingArea
 	{
 		const float PI = 3.141592654F;

@@ -13,6 +13,8 @@ using System.Drawing.Drawing2D;
 namespace HollyLibrary
 {
 
+	[System.ComponentModel.ToolboxItem(true)]
+    [System.Drawing.ToolboxBitmapAttribute(typeof(HSimpleList), "HSimpleList.png")]
 	public class HSimpleList : TreeView, IBaseListWidget, ICustomCellTreeView
 	{
 		//my standard properties

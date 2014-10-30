@@ -7,7 +7,8 @@ using System;
 namespace HollyLibrary
 {
 	
-	
+	[System.ComponentModel.ToolboxItem(true)]
+	[System.Drawing.ToolboxBitmapAttribute(typeof(HSimpleComboBox), "HSimpleComboBox.png")]
 	public partial class HSimpleComboBox : Gtk.Bin
 	{
 		//popup windor

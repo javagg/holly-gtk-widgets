@@ -7,7 +7,8 @@ using System;
 namespace HollyLibrary
 {
 	
-	
+	[System.ComponentModel.ToolboxItem(true)]	
+	[System.Drawing.ToolboxBitmapAttribute(typeof(HComboFolder), "HComboFolder.png")]
 	public partial class HComboFolder : Gtk.Bin
 	{
 		//events

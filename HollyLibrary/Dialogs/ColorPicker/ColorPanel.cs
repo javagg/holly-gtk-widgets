@@ -19,7 +19,8 @@ namespace HollyLibrary
 		Green,
 		Blue
 	}
-	
+
+	[System.ComponentModel.ToolboxItem(true)]
 	internal class ColorPanel : Gtk.DrawingArea
 	{
 		#region Class Variables
