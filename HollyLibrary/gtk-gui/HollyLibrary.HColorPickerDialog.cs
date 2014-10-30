@@ -24,7 +24,9 @@ namespace HollyLibrary
 			w1.Name = "dialog1_VBox";
 			w1.BorderWidth = ((uint)(2));
 			// Container child dialog1_VBox.Gtk.Box+BoxChild
-			this.Picker = null;
+			this.Picker = new global::HollyLibrary.HColorPickerWidget ();
+			this.Picker.Events = ((global::Gdk.EventMask)(256));
+			this.Picker.Name = "Picker";
 			w1.Add (this.Picker);
 			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(w1 [this.Picker]));
 			w2.Position = 0;
@@ -62,8 +64,8 @@ namespace HollyLibrary
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 591;
-			this.DefaultHeight = 394;
+			this.DefaultWidth = 596;
+			this.DefaultHeight = 371;
 			this.Show ();
 		}
 	}

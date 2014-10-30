@@ -13,12 +13,14 @@ namespace HollyLibrary
 			global::Stetic.BinContainer.Attach (this);
 			this.Name = "HollyLibrary.HColorPicker";
 			// Container child HollyLibrary.HColorPicker.Gtk.Container+ContainerChild
-			this.comboBox = null;
+			this.comboBox = new global::HollyLibrary.HBaseComboBox ();
+			this.comboBox.Events = ((global::Gdk.EventMask)(256));
+			this.comboBox.Name = "comboBox";
 			this.Add (this.comboBox);
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.Hide ();
+			this.Show ();
 		}
 	}
 }

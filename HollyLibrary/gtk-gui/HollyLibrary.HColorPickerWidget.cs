@@ -94,14 +94,19 @@ namespace HollyLibrary
 			this.hbox2.Spacing = 7;
 			this.hbox2.BorderWidth = ((uint)(6));
 			// Container child hbox2.Gtk.Box+BoxChild
-			this.ColorWell = null;
+			this.ColorWell = new global::HollyLibrary.ColorPanel ();
+			this.ColorWell.WidthRequest = 250;
+			this.ColorWell.HeightRequest = 200;
+			this.ColorWell.Name = "ColorWell";
 			this.hbox2.Add (this.ColorWell);
 			global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.ColorWell]));
 			w1.Position = 1;
 			w1.Expand = false;
 			w1.Fill = false;
 			// Container child hbox2.Gtk.Box+BoxChild
-			this.Slider = null;
+			this.Slider = new global::HollyLibrary.VerticalColorSlider ();
+			this.Slider.WidthRequest = 50;
+			this.Slider.Name = "Slider";
 			this.hbox2.Add (this.Slider);
 			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.Slider]));
 			w2.Position = 2;
@@ -428,7 +433,12 @@ namespace HollyLibrary
 			w30.Expand = false;
 			w30.Fill = false;
 			// Container child hbox4.Gtk.Box+BoxChild
-			this.TxtHexa = null;
+			this.TxtHexa = new global::HollyLibrary.HRegExEntry ();
+			this.TxtHexa.Events = ((global::Gdk.EventMask)(256));
+			this.TxtHexa.Name = "TxtHexa";
+			this.TxtHexa.RegularExpression = "^?[0-9A-F]{6}$";
+			this.TxtHexa.OkMessage = "Color hexa code is correct";
+			this.TxtHexa.ErrorMessage = "Error in color code !";
 			this.hbox4.Add (this.TxtHexa);
 			global::Gtk.Box.BoxChild w31 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.TxtHexa]));
 			w31.Position = 1;
@@ -446,6 +456,8 @@ namespace HollyLibrary
 				this.Child.ShowAll ();
 			}
 			this.Hide ();
+			this.ColorWell.Scroll += new global::System.EventHandler (this.OnColorWellScroll);
+			this.Slider.Scroll += new global::System.EventHandler (this.OnSliderScroll);
 			this.ChkR1.Toggled += new global::System.EventHandler (this.OnChkRToggled);
 			this.TxtRed.ValueChanged += new global::System.EventHandler (this.OnTxtRedValueChanged);
 			this.ChkG.Toggled += new global::System.EventHandler (this.OnChkGToggled);
@@ -463,6 +475,7 @@ namespace HollyLibrary
 			this.chkS.Toggled += new global::System.EventHandler (this.OnChkSToggled);
 			this.chkH.Toggled += new global::System.EventHandler (this.OnChkHToggled);
 			this.chkB.Toggled += new global::System.EventHandler (this.OnChkBToggled);
+			this.TxtHexa.Changed += new global::System.EventHandler (this.OnTxtHexaChanged);
 		}
 	}
 }

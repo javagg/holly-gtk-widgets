@@ -21,16 +21,25 @@ namespace HollyLibrary
 			this.GtkScrolledWindow.Name = "GtkScrolledWindow";
 			this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
 			// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
-			this.TvList = null;
+			this.TvList = new global::HollyLibrary.HSimpleList ();
+			this.TvList.CanFocus = true;
+			this.TvList.Name = "TvList";
+			this.TvList.SelectedIndex = 0;
+			this.TvList.ItemHeight = 20;
+			this.TvList.OwnerDraw = false;
+			this.TvList.IsEditable = false;
+			this.TvList.IsDragAndDropEnable = false;
+			this.TvList.IsCheckBoxList = false;
 			this.GtkScrolledWindow.Add (this.TvList);
 			this.Add (this.GtkScrolledWindow);
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 264;
-			this.DefaultHeight = 242;
+			this.DefaultWidth = 242;
+			this.DefaultHeight = 246;
 			this.Show ();
 			this.ButtonPressEvent += new global::Gtk.ButtonPressEventHandler (this.OnButtonPressEvent);
+			this.TvList.RowActivated += new global::Gtk.RowActivatedHandler (this.OnTvListRowActivated);
 		}
 	}
 }

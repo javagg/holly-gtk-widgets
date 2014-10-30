@@ -27,7 +27,15 @@ namespace HollyLibrary
 			this.GtkScrolledWindow.Name = "GtkScrolledWindow";
 			this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
 			// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
-			this.TvFonts = null;
+			this.TvFonts = new global::HollyLibrary.HSimpleList ();
+			this.TvFonts.CanFocus = true;
+			this.TvFonts.Name = "TvFonts";
+			this.TvFonts.SelectedIndex = 0;
+			this.TvFonts.ItemHeight = 0;
+			this.TvFonts.OwnerDraw = true;
+			this.TvFonts.IsEditable = false;
+			this.TvFonts.IsDragAndDropEnable = false;
+			this.TvFonts.IsCheckBoxList = false;
 			this.GtkScrolledWindow.Add (this.TvFonts);
 			this.vbox1.Add (this.GtkScrolledWindow);
 			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.GtkScrolledWindow]));
@@ -36,10 +44,15 @@ namespace HollyLibrary
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 228;
+			this.DefaultWidth = 225;
 			this.DefaultHeight = 173;
 			this.Show ();
 			this.ButtonPressEvent += new global::Gtk.ButtonPressEventHandler (this.OnButtonPressEvent);
+			this.TvFonts.RowActivated += new global::Gtk.RowActivatedHandler (this.OnTvFontsRowActivated);
+			this.TvFonts.ButtonPressEvent += new global::Gtk.ButtonPressEventHandler (this.OnTvFontsButtonPressEvent);
+			this.TvFonts.DrawItem += new global::HollyLibrary.DrawItemEventHandler (this.OnTvFontsDrawItem);
+			this.TvFonts.MeasureItem += new global::HollyLibrary.MeasureItemEventHandler (this.OnTvFontsMeasureItem);
+			this.TvFonts.SelectedIndexChanged += new global::System.EventHandler (this.OnTvFontsSelectedIndexChanged);
 		}
 	}
 }

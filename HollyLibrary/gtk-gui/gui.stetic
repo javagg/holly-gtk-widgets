@@ -7,7 +7,7 @@
   <import>
     <widget-library name="../bin/Debug/HollyLibrary.dll" internal="true" />
   </import>
-  <widget class="Gtk.Bin" id="HollyLibrary.HDateEdit" design-size="322 31">
+  <widget class="Gtk.Bin" id="HollyLibrary.HDateEdit" design-size="322 32">
     <property name="MemberName" />
     <child>
       <widget class="HollyLibrary.HBaseComboBox" id="comboBox">
@@ -217,7 +217,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Window" id="HollyLibrary.FontChooserDialog" design-size="228 173">
+  <widget class="Gtk.Window" id="HollyLibrary.FontChooserDialog" design-size="225 173">
     <property name="MemberName" />
     <property name="Title" translatable="yes">FontChooserDialog</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -258,7 +258,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HFontPicker" design-size="346 64">
+  <widget class="Gtk.Bin" id="HollyLibrary.HFontPicker" design-size="194 32">
     <property name="MemberName" />
     <child>
       <widget class="HollyLibrary.HBaseComboBox" id="comboBox">
@@ -321,7 +321,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HSimpleComboBox" design-size="359 36">
+  <widget class="Gtk.Bin" id="HollyLibrary.HSimpleComboBox" design-size="194 32">
     <property name="MemberName" />
     <child>
       <widget class="HollyLibrary.HBaseComboBox" id="comboBox">
@@ -330,7 +330,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Window" id="HollyLibrary.ComboListWindow" design-size="264 242">
+  <widget class="Gtk.Window" id="HollyLibrary.ComboListWindow" design-size="242 246">
     <property name="MemberName" />
     <property name="Title" translatable="yes">ComboListWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -398,7 +398,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Window" id="HollyLibrary.ColorPickerDialog" design-size="230 160">
+  <widget class="Gtk.Window" id="HollyLibrary.ColorPickerDialog" design-size="213 181">
     <property name="MemberName" />
     <property name="Title" translatable="yes">ColorPickerDialog</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -871,7 +871,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HComboTree" design-size="388 69">
+  <widget class="Gtk.Bin" id="HollyLibrary.HComboTree" design-size="194 32">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -913,7 +913,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HComboFolder" design-size="426 44">
+  <widget class="Gtk.Bin" id="HollyLibrary.HComboFolder" design-size="194 32">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -1034,7 +1034,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HColorPickerWidget" design-size="578 315">
+  <widget class="Gtk.Bin" id="HollyLibrary.HColorPickerWidget" design-size="573 317">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -1097,6 +1097,7 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">R:</property>
+                    <property name="Active">True</property>
                     <property name="DrawIndicator">True</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -1662,9 +1663,8 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HColorPicker" design-size="300 67">
+  <widget class="Gtk.Bin" id="HollyLibrary.HColorPicker" design-size="194 32">
     <property name="MemberName" />
-    <property name="Visible">False</property>
     <child>
       <widget class="HollyLibrary.HBaseComboBox" id="comboBox">
         <property name="MemberName" />
@@ -1672,7 +1672,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Dialog" id="HollyLibrary.HColorPickerDialog" design-size="591 394">
+  <widget class="Gtk.Dialog" id="HollyLibrary.HColorPickerDialog" design-size="596 371">
     <property name="MemberName" />
     <property name="Title" translatable="yes">Pick a color</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -1739,7 +1739,7 @@
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="HollyLibrary.HImageCheckBox" design-size="331 54">
+  <widget class="Gtk.Bin" id="HollyLibrary.HImageCheckBox" design-size="245 54">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>

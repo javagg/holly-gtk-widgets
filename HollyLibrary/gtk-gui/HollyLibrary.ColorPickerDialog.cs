@@ -54,8 +54,8 @@ namespace HollyLibrary
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
 			}
-			this.DefaultWidth = 230;
-			this.DefaultHeight = 160;
+			this.DefaultWidth = 213;
+			this.DefaultHeight = 181;
 			this.Show ();
 			this.ButtonPressEvent += new global::Gtk.ButtonPressEventHandler (this.OnButtonPressEvent);
 			this.BtnMoreColors.Clicked += new global::System.EventHandler (this.OnBtnMoreColorsClicked);
