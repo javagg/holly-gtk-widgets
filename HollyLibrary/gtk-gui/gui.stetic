@@ -5,7 +5,7 @@
     <target-gtk-version>2.12</target-gtk-version>
   </configuration>
   <import>
-    <widget-library name="../bin/Debug/HollyWidgets.dll" internal="true" />
+    <widget-library name="../bin/Debug/HollyLibrary.dll" internal="true" />
   </import>
   <widget class="Gtk.Bin" id="HollyLibrary.HDateEdit" design-size="322 31">
     <property name="MemberName" />

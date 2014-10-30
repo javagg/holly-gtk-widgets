@@ -5,9 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{A23CC5F4-55B8-4E44-BD43-71E88AF4CBD9}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>HollyWidgets</RootNamespace>
-    <AssemblyName>HollyWidgets</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>HollyLibrary</RootNamespace>
+    <AssemblyName>HollyLibrary</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>

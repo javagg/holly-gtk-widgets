@@ -36,12 +36,7 @@ namespace HollyLibrary
 			w1.Expand = false;
 			w1.Fill = false;
 			// Container child hbox1.Gtk.Box+BoxChild
-			this.LblText = new global::HollyLibrary.HLabel ();
-			this.LblText.Name = "LblText";
-			this.LblText.LabelProp = global::Mono.Unix.Catalog.GetString ("hlabel1");
-			this.LblText.TextOverwritesIcon = false;
-			this.LblText.HorizontalLine = false;
-			this.LblText.TextInSelectionRectangle = false;
+			this.LblText = null;
 			this.hbox1.Add (this.LblText);
 			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.LblText]));
 			w2.Position = 1;
